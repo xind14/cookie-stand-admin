@@ -1,40 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lab: Class 37 - Leveling up Front End with React, Next.js & TailwindCSS
 
-## Getting Started
+## Author: Xin Deng
 
-First, run the development server:
+### Links and Resources
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- chatGPT
+- [Class 37 Demo](https://github.com/codefellows/seattle-code-python-401d24/tree/main/class-37/demo)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Overview - React, Next.js and TailwindCSS
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This project is a Cookie Stand Admin application built using Next.js, a React framework, and styled with utility-first approach of Tailwind CSS.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### Version 1.0
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Build 1.0 Feature Tasks
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `<Head>` component with page title set to "Cooke Stand Admin"
+- `<Header>` component that matches the spec
+- `<main>` component containing `<form>`
+- placeholder component showing a JSON string of last created Cookie Stand
+- `<Footer>` component that matches the spec
 
-## Learn More
+### Setup
 
-To learn more about Next.js, take a look at the following resources:
+npx create-next-app@latest --js --no-app
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[Next Lab Submission Instructions](https://codefellows.github.io/seattle-code-python-401d24/class-37/lab/README-NEXT)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### How to Initialize/Run Application
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`npm run dev`
