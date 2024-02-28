@@ -1,17 +1,14 @@
-import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "@/components/Footer";
-import Main from "../components/Main";
+
+// import Head from "next/head";
+import CookieStandAdmin from "../components/CookieStandAdmin";
 
 export default function Home() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Cookie Stand</title>
-      </Head>
-      <Header />
-      <Main />
-      <Footer />
+      </Head> */}
+      <CookieStandAdmin />
     </>
   );
 }

@@ -1,4 +1,4 @@
-# Lab: Class 37 - Leveling up Front End with React, Next.js & TailwindCSS
+# Lab: Class 37 - Leveling up Front End with React, Next.js & TailwindCSS. Class 38 - Cookie Stand Admin Version 2
 
 ## Author: Xin Deng
 
@@ -6,6 +6,7 @@
 
 - chatGPT
 - [Class 37 Demo](https://github.com/codefellows/seattle-code-python-401d24/tree/main/class-37/demo)
+- [Class 38 Demo](https://github.com/codefellows/seattle-code-python-401d24/tree/main/class-38/demo)
 
 ### Overview - React, Next.js and TailwindCSS
 
@@ -20,6 +21,17 @@ Build 1.0 Feature Tasks
 - `<main>` component containing `<form>`
 - placeholder component showing a JSON string of last created Cookie Stand
 - `<Footer>` component that matches the spec
+
+#### Version 2.0
+
+Build 2.0 Feature Tasks
+
+- Create top level component`<CookieStandAdmin>` component that holds all other components 
+- `<CreateForm>` component that imports data file
+- `<ReportTable>` component displaying table when not empty and displays a message when empty
+- `<Footer>` component that matches the spec with an added counter 
+
+
 
 ### Setup
 
