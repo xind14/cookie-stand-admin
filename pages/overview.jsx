@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Footer from "@/components/Footer";
 
 
 export default function Overview(){
@@ -9,7 +8,6 @@ export default function Overview(){
     <h1>Cookie Stand Admin</h1>
     <Link href='/' className='px-2 mx-4 rounded-md bg-white text-base'>Home</Link>
     </header>
-    <Footer />
     </>
    
   )
