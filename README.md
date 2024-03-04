@@ -1,4 +1,4 @@
-# Lab: Class 37 - Leveling up Front End with React, Next.js & TailwindCSS. Class 38 - Cookie Stand Admin Version 2. Class 39 - Cookie Stand Admin Version 3. 
+# Lab: Class 37 - Leveling up Front End with React, Next.js & TailwindCSS. Class 38 - Cookie Stand Admin Version 2. Class 39 - Cookie Stand Admin Version 3. Class 41 -  React IV - Deployment
 
 ## Author: Xin Deng
 
@@ -53,3 +53,7 @@ npx create-next-app@latest --js --no-app
 
 `npm run dev`
 `python manage.py runserver` on cookie-stand-api
+
+## Deployed Link
+
+[Front End Deployed Link](https://cookie-stand-admin-xind14.vercel.app/)
